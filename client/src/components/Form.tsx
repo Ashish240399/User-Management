@@ -107,6 +107,7 @@ function Form({}: Props) {
         progress: undefined,
         theme: "colored",
       });
+      return;
     }
   };
   return (
