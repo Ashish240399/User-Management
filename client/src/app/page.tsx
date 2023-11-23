@@ -65,7 +65,7 @@ export default function Home() {
               onClick={() => {
                 dispatch(getAddItemSlice(false));
               }}
-              className="text-black flex items-center text-[22px] ml-[40px] mt-[12px] cursor-pointer"
+              className="text-black flex items-center text-[22px] md:ml-[40px] ml-[1%] mt-[12px] cursor-pointer"
             >
               <MdKeyboardArrowLeft />
               <span className="text-[12px] text-[#7E858E] font-[400]">

@@ -231,16 +231,7 @@ function Form({}: Props) {
         <div className="w-[102px] h-[40px] m-auto mt-6 mb-5 md:mb-0">
           <button
             type="submit"
-            className={
-              formData.category == "" ||
-              formData.description == "" ||
-              formData.iconUrl == "" ||
-              formData.itemTitle == "" ||
-              formData.link == "" ||
-              formData.tagName == ""
-                ? "bg-gray-300 text-white w-full h-full rounded"
-                : "bg-[#0B69FF] text-white w-full h-full rounded"
-            }
+            className={"bg-[#0B69FF] text-white w-full h-full rounded"}
           >
             CREATE
           </button>
